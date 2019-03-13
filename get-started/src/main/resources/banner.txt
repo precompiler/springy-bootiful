@@ -6,4 +6,17 @@
    \ \_\ \_\ \____/\ \_,__/\ \____/\ \__\
     \/_/\/ /\/___/  \/___/  \/___/  \/__/
                                          
-                                         
+${application.version}
+
+${application.formatted-version}
+
+${spring-boot.version}
+
+
+${spring-boot.formatted-version}
+
+
+${Ansi.NAME} (or ${AnsiColor.NAME}, ${AnsiBackground.NAME}, ${AnsiStyle.NAME})
+
+
+${application.title}                               
