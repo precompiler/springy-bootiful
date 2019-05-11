@@ -1,1 +1,13 @@
 greeting: hello-yml
+
+my:
+  secret: ${random.value}
+  number: ${random.int}
+  bignumber: ${random.long}
+  uuid: ${random.uuid}
+  number.less.than.ten: ${random.int(10)}
+  number.in.range: ${random.int[1024,65536]}
+
+demo:
+  host-server: 127.0.0.1
+  enabled: true
